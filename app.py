@@ -1,3 +1,6 @@
+"""Main application entry point.
+Runs the FastAPI application server using Uvicorn.
+"""
 from api import app
 import uvicorn
 

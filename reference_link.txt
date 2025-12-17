@@ -1,0 +1,8 @@
+(1) api.py: Missing module docstring (line 1)
+(2) api.py: Missing function docstring for internal_helper() (line 18)
+(3) app.py: Missing module docstring (line 1)
+(4) config.py: Missing module docstring (line 1)
+(5) utils.py: Missing module docstring (line 1)
+(6) utils.py: Missing function docstring for helper_function() (line 6)
+(7) tasks.py: Missing module docstring (line 1)
+(8) tasks.py: Missing class docstring for TaskManager (line 16)

@@ -1,3 +1,6 @@
+"""Task management module.
+Contains Task and TaskManager classes for managing application tasks.
+"""
 from typing import List
 
 class Task:
@@ -13,6 +16,10 @@ class Task:
         self.status = "done"
 
 class TaskManager:
+    """Manager class for handling collections of tasks.
+    
+    Provides methods for adding, listing, and removing tasks from the task collection.
+    """
     def __init__(self):
         self.tasks: List[Task] = []
 
