@@ -1,3 +1,5 @@
+"""Configuration module."""
+
 # 配置文件
 
 DEFAULT_TASK_STATUS = "pending"

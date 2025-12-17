@@ -1,3 +1,5 @@
+"""Main application module."""
+
 from api import app
 import uvicorn
 
