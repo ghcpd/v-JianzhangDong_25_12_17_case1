@@ -18,5 +18,4 @@ def create_task(title: str, description: str):
     return {"message": "Task added successfully"}
 
 def internal_helper():
-    # Missing doc: 内部函数缺少文档
     return "This is internal"
