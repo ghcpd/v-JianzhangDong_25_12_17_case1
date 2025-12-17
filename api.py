@@ -1,3 +1,6 @@
+"""API module for FastAPI application.
+Provides endpoints for task management operations.
+"""
 from fastapi import FastAPI
 from tasks import Task, TaskManager
 
@@ -18,4 +21,9 @@ def create_task(title: str, description: str):
     return {"message": "Task added successfully"}
 
 def internal_helper():
+    """Internal helper function for API operations.
+    
+    Returns:
+        str: A status message for internal use.
+    """
     return "This is internal"
