@@ -1,0 +1,24 @@
+You are responsible for finding missing docs.
+
+Complete the following tasks:
+1. Based on the modified requirements.txt create a clean virtual environment under .venv/. Ensure that:
+ - Do not reuse any existing environment. 
+ - If .venv/ already exists, delete and recreate it.
+ - Install all dependencies into .venv/.
+ - Generate or update .gitignore so that .venv/ will not be uploaded to Git.
+
+2. You must generate a reference_link.txt file documenting all missing docs.
+The file should follow the structure below:
+(1) core/utils.py: Missing module docstring (line 1)
+(2) services/payment.py: Missing function docstring for process_payment() (line 15)
+(3) models/user.py: Missing class docstring for UserProfile (line 3)
+
+3. Fill in all previously identified missing docs.
+   Do not modify existing code or logic—only add the missing documentation.
+
+4. Implement an automatic test execution script named auto_test.py that:
+   - Detects the current environment (Windows/Linux/Docker)
+   - Runs the corresponding test script (run_test.sh for Linux/macOS, run_test.bat for Windows)
+   - Saves all output logs to logs/test_run.log
+   - The log must include a timestamp and a final status line: TEST PASSED or TEST FAILED
+   - These tests are intended to verify that all previously identified Missing docs (module, class, function docstrings) have been added.
